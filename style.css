@@ -1,0 +1,357 @@
+﻿body
+{
+	background-color:#B8C7A9;
+	font-family: Tahoma, Geneva, Verdana;
+}
+
+.englobante
+{
+	padding: 2%;
+	margin: 2em;
+	margin-top: 100px;
+	border-radius: 14px;
+	background-color: #E3EBDA;
+}
+
+#menu
+{	
+	border-radius:14px;
+	background-color:#F4FFE8;
+	margin-top: 5%;
+	margin-left:12.5%;
+	padding-top:2px;
+	text-align:center;
+	width:70%;
+}
+
+#menu img
+{
+	display:inline-block;
+	border-radius:50%;
+	border-color:transparent;
+}
+
+h1
+{
+	margin-top: -4%;
+	position: static;
+	bottom: 50%;
+	font-size: 400%;
+	text-transform: bold;
+	text-align: center;
+	color: #DB4242;
+	text-shadow:-2px -2px 0 #000;
+}
+
+h2
+{
+	font-size: 3em;
+	color: #30D121;
+	text-shadow:
+	-1px -1px 0 #000;
+	position: relative;
+	bottom: 0.5em;
+	font-variant:small-caps;
+}
+
+h3
+{
+	font-variant:small-caps;
+	border-bottom:2px solid black;
+}
+
+h4
+{
+	font-size:1.2em;
+	margin-top:1em;
+}
+
+footer
+{
+	text-align:center;
+	color:grey;
+	font-variant:small-caps;
+}
+
+ul.puces-r
+{
+	list-style-type:disc;
+}
+
+#G{
+	display:inline;
+	text-align:left;
+	margin-left:2%;
+	margin-right:15%;
+}
+#C{
+	display:inline;
+	text-align:center;
+	margin-right:18%;
+	margin-left:15%;
+}
+#D{
+	display:inline;
+	text-align:right;
+	margin-right:3%;
+	margin-left:18%;
+}
+
+
+
+footer a
+{	
+	font-weight:normal;
+	color:grey;
+}
+
+div.post
+{	
+	text-align: left;
+	border: none;
+	background-color:#B8C7B8;
+	border-radius: 14px;
+	margin-bottom: 5%;
+	padding:1%;
+	padding-top: 0.1%;
+}
+
+form
+{	
+	display:inline-block;
+	width:60%;
+	margin-right:20%;
+	border: 4px solid green;
+	border-radius: 14px;
+}
+
+form div
+{
+	text-align:left;
+}
+
+form br + p
+{
+	text-align:left;
+	margin-left: 1%;
+}
+
+em.titre
+{
+	text-align:right;
+	position: relative;
+	right:1%;
+	bottom: 0.8em;
+	color: darkblue;
+	font-family: Calibri;
+	font-size: 1.4em;
+	font-weight: bold;
+	background-color: #E3EBDA;
+	padding-right:0.5em;
+	padding-left:0.5em;
+}
+
+#contact-haut
+{
+	margin-left:1%;
+	margin-bottom: -10%;
+	font-variant:small-caps;
+	color:grey;
+	font-size:1.2em;
+	text-decoration: none;
+	text-align: left;
+	width:300px;
+}
+
+form + p
+{
+	font-size:0.8em;
+	margin-left:1%;
+	color:grey;
+}
+
+form div
+{	
+	margin-top: 0.5%;
+	margin-left:1%;
+	margin-bottom: 0.5%;
+}
+em.cite
+{
+	position: relative;
+	bottom: 1.3em;
+	font-family: sans-serif;
+	color: rgb(170,170,170);
+	font-size: 1.2em;	
+}
+
+div.englobante > div
+{
+	text-align: right;
+	padding: 3%;
+}
+
+header {
+
+	background: #fff;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #4C9CF1;
+	z-index: 100;
+
+}
+
+nav {
+
+	float: left;
+	padding: 20px;	
+
+}
+
+
+ul {
+
+	list-style: none;
+
+}
+
+li{
+text-align: left;
+}
+
+header li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
+
+.current {
+
+	color: #0E9602;
+
+}
+
+a {
+
+	color: #15BD06;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+	color: rgb(170,170,170);
+}
+
+a:hover {
+	color: #444;
+}
+
+a.sommaire
+{
+	color:black;
+	font-size: 1.2em;
+}
+
+ul#sommaire li
+{
+	border-bottom:4px solid green;
+}
+
+
+
+ul + div img
+{
+	position: relative;
+	bottom: 18em;
+	width: 23%;
+	border: 4px solid green;
+	border-radius:14px;
+}
+
+.grille
+{
+	text-align:justify;
+}
+.grille div
+{
+	display:inline-block;
+	width:28%;
+	border-radius:16px;
+	padding:0.5%;
+	background-color:white;
+}
+
+
+@media only screen and (max-width : 720px) {
+
+body
+{
+font-size: 0.8em;
+}
+header {
+
+		position: absolute;
+
+	}
+
+
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		left: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+		
+		display: block;
+
+	}
+#contact-haut
+{
+	margin-bottom: 0%;
+}
+form{
+	width:90%;
+}
+	}
+	
+
+	
+@media only screen and (max-width : 420px) {
+
+ul + div img
+{
+	display:none;
+}
+
+body{
+	font-size:0.7em;
+}
+#contact-haut
+{
+	width:100%;
+}
+}
